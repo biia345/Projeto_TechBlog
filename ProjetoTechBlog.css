@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'FreeMono', monospace;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #f7b600;
+    padding-bottom: 12px;
+}
+
+header span {
+    color: rgb(82, 82, 82);
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    padding: 10px 0 0;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header li, a{
+    padding: 10px;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: white;
+}
+
+#principal {
+    width: 920px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#area-postagens {
+    width: 660px;
+    float: left;
+    padding-bottom: 10px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+#area-lateral {
+    width: 240px;
+    float: right;
+    background-color: white;
+}
+
+.postagens {
+    padding: 15px;
+}
+
+.postagens img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding:20px 0 20px 0;
+}
+
+.postagens p {
+    font-size: 0.9em;
+    color: #313131;
+}
+
+
+.postagens-lateral h3{
+    background-color:rgb(199, 199, 199);
+    padding-left: 3px;
+    color: #313131
+}
+
+.postagens-lateral p {
+    color: #313131
+}
+
+.postagens-lateral {
+    padding: 10px;
+}
+
+.texto-lateral {
+    font-size: 0.9em;
+    padding: 5px 0;
+}
+
+#principal a {
+    color: #f7b600;
+}
+
+#area-lateral hr {
+    color: #585858bb; 
+}
+
+.rodape {
+    clear: both;
+    text-align: center;
+    display: block;
+    background: rgb(82, 82, 82) ;
+    display: block;
+    width: 100%;
+    padding: 10px;
+}
+
+header a:link, a:visited {
+    color: white;   
+}
+
+header a:hover {
+    color:  #f7b600;
+    background: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+main a:link, a:visited {
+    color: white;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+a {
+    padding: 10px 0 10px 0;
+}
