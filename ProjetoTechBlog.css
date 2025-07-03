@@ -105,8 +105,7 @@ header li, a{
 .rodape {
     clear: both;
     text-align: center;
-    display: block;
-    background: rgb(82, 82, 82) ;
+    background: rgb(82, 82, 82);
     display: block;
     width: 100%;
     padding: 10px;
